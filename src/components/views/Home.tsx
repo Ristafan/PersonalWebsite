@@ -6,14 +6,11 @@ function Home() {
 
     return (
         <>
-        <h1>kill count</h1>
+        <h1>This is my Website</h1>
         <div className="card">
             <button onClick={() => setCount((count) => count + 1)}>
             count is {count}
             </button>
-            <p>
-            Edit <code>src/App.tsx</code> and save to test HMR
-            </p>
         </div>
         </>
     )
